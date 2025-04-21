@@ -1,0 +1,29 @@
+                           precision    recall  f1-score   support
+
+           mantled howler       0.76      0.50      0.60        26
+             patas monkey       0.73      0.79      0.76        28
+              bald uakari       0.96      0.93      0.94        27
+         japanese macaque       0.85      0.97      0.91        30
+           pygmy marmoset       0.96      1.00      0.98        26
+    white headed capuchin       0.71      0.89      0.79        28
+         silvery marmoset       1.00      0.23      0.38        26
+   common squirrel monkey       0.60      0.96      0.74        28
+black headed night monkey       0.58      0.42      0.49        26
+           nilgiri langur       0.75      0.92      0.83        26
+
+                 accuracy                           0.77       271
+                macro avg       0.79      0.76      0.74       271
+             weighted avg       0.79      0.77      0.75       271
+
+
+Confusion Matrix:
+[[13  0  0  0  0  0  0  0  7  6]
+ [ 2 22  0  0  0  0  0  3  0  1]
+ [ 1  0 25  1  0  0  0  0  0  0]
+ [ 0  1  0 29  0  0  0  0  0  0]
+ [ 0  0  0  0 26  0  0  0  0  0]
+ [ 0  1  0  1  0 25  0  0  0  1]
+ [ 0  6  1  3  1  9  6  0  0  0]
+ [ 0  0  0  0  0  0  0 27  1  0]
+ [ 0  0  0  0  0  0  0 15 11  0]
+ [ 1  0  0  0  0  1  0  0  0 24]]
