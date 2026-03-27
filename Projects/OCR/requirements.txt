@@ -1,0 +1,34 @@
+pdf2image>=1.17.0
+Pillow>=10.3.0
+ultralytics>=8.2.0
+streamlit>=1.35.0
+numpy>=1.26.0
+# UI
+streamlit>=1.35.0
+ 
+# PDF processing
+pdf2image>=1.17.0
+Pillow>=10.3.0
+ 
+# YOLO detector
+ultralytics>=8.2.0
+ 
+# Text OCR (TrOCR fine-tuned)
+transformers>=4.40.0
+torch>=2.1.0
+torchvision>=0.16.0
+accelerate>=0.30.0
+safetensors>=0.4.3
+ 
+# Formula OCR (pix2tex — опционально, формулы вставляются как картинки)
+# pix2tex>=0.1.2
+ 
+# Metrics
+jiwer>=3.0.4
+ 
+# Utils
+numpy>=1.26.0
+Pillow>=10.3.0
+ 
+# System (apt-get, не pip):
+# apt-get install -y poppler-utils
